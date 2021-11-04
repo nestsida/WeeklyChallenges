@@ -136,7 +136,7 @@ namespace ChallengesWithTestsMark8.Tests
             string actual = challenger.GetGreeting(personName);
 
             // Assert
-            Assert.Equal(expectedGreeting, actual);
+            Assert.Equal( expectedGreeting, actual);
         }
 
         [Fact]
